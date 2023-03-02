@@ -3,6 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     unoptimized: true
+ },
+ exportTrailingSlash:true,
+ exportPathMap: function() {
+  return {
+    '/':{page: '/'}
+  };
  }
 }
 
