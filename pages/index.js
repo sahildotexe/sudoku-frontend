@@ -132,7 +132,7 @@ const abi = [
       "type": "function"
   }
 ];
-const contractAddress = "0x25978602C80238Ed495bBB368D1cd34f5387992C"
+const contractAddress = "0x9ABe3aef19786cB70F7FF01D545e35D29569d0Ba"
 
 // Define the initial Sudoku board as a 2D array of numbers
 const initialBoard = [[7, 8, 5, 1, 4, 3, 9, 2, 6],
