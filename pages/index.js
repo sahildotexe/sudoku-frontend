@@ -230,6 +230,7 @@ export default function Home() {
   }
 
   const checkWin = async () => {
+    setMessage(null)
     try {
       const { ethereum } = window
 
